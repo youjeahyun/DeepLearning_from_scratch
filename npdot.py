@@ -1,11 +1,11 @@
 import numpy as np
 
-X = np.array([1,2])
-print(X.shape)
+X = np.array([1, 2])
+print(X.shape)  # (2,)
 
-W = np.array([[1,3,5],[2,4,6]])
+W = np.array([[1, 3, 5], [2, 4, 6]])
 print(W)
-W.shape
+print(W.shape)  # (2, 3)
 
 Y = np.dot(X, W)
-print(Y)
+print(Y)  # [ 5 11 17 ]
